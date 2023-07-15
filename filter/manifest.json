@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "网页滤镜🔍",
+    "version": "1.0",
+    "description": "更改当前网页滤镜🔍",
+    "permissions": [
+        "activeTab"
+      ],
+    "browser_action": {
+        "default_title": "网页滤镜🔍",
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "128": "icon/icon128.png"
+        }
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

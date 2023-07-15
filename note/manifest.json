@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "瑞萌萌的记事本🗒️",
+    "version": "1.0",
+    "description": "一个随便写写的记事本插件",
+    "browser_action": {
+      "default_icon": {
+        "16": "icon/icon16.png",
+        "128": "icon/icon128.png"
+      },
+      "default_title": "瑞萌萌的记事本🗒️",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
+  
